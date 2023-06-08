@@ -1,0 +1,5 @@
+create database sales;
+use sales;
+create table orders(order_id int,customer_id int,order_date date,order_total decimal);
+insert into orders(order_id ,customer_id,order_date ,order_total ) values (1,1,'2021-10-12',13.6),(2,1,'2001-10-11',14.9);
+select * from orders;
